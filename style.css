@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-
+@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 h2 
 {
     vertical-align: center;
@@ -1167,7 +1168,6 @@ h1
     bottom: 20px;
     animation: animate 3s linear infinite;
 }
-
 
 #menu-toggle:checked + .menu-button-container .menu-button::before 
 {
